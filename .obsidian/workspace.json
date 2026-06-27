@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "0cd38b2e080e9649",
+    "type": "split",
+    "children": [
+      {
+        "id": "67750013b341a433",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08371428270cd998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ccna-labs/lab-notes/Day01-lab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day01-lab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbf27a9d84596032",
+    "type": "split",
+    "children": [
+      {
+        "id": "b03ce9f8d0c47a28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b69792f66bae565",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6ffbab7a61f49751",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "630959be0ec80a56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e30e76d501d679c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b04f8d7acc118a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62781110b45cb4ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ccna-labs/lab-notes/Day01-lab.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Day01-lab"
+            }
+          },
+          {
+            "id": "5533b9d9ee8bb9c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ccna-labs/lab-notes/Day01-lab.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Day01-lab"
+            }
+          },
+          {
+            "id": "f931431c81a9c094",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1d2ed045dede4eb4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d6b9877760e5d08e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ccna-labs/lab-notes/Day01-lab.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Day01-lab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "08371428270cd998",
+  "lastOpenFiles": [
+    "README.md",
+    "ccna-labs/Day 01 Lab - Packet Tracer Introduction.pkt~",
+    "Screen![[Screenshot.md",
+    "ccna-labs/lab-notes/Day01-lab.md",
+    "ccna-labs/images/Screenshot 2026-06-28 014038.png",
+    "ccna-labs/images/Screenshot 2026-06-28 014038.png",
+    "ccna-labs/Day01-lab.md",
+    "ccna-labs/images/Screenshot 2026-06-28 010720.png",
+    "ccna-labs/images",
+    "ccna-labs/New folder"
+  ]
+}
