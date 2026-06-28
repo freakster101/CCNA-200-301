@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08371428270cd998",
+            "id": "fdaeb2f33867656a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ccna-labs/lab-notes/Day01-lab.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Day01-lab"
+              "title": "New tab"
             }
           }
         ]
@@ -183,17 +179,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "08371428270cd998",
+  "active": "fdaeb2f33867656a",
   "lastOpenFiles": [
-    "README.md",
-    "ccna-labs/Day 01 Lab - Packet Tracer Introduction.pkt~",
-    "Screen![[Screenshot.md",
+    "notes/day02-connecting-devices.md",
+    "notes/day01-network-devices.md",
+    "day01-network-devices.md",
+    "labs/notes/day01-network-devices.md",
+    "labs/notes/day01-.md",
+    "labs/notes/day00-basic-ping.md",
+    "labs/notes/day02-connecting-devices.md",
+    "labs/packet-tracer/day02-connecting-devices.pkt",
+    "labs/packet-tracer/day01-packet-tracer-introduction.pkt",
+    "labs/packet-tracer/Day00-basic-ping.pkt",
+    "labs/packet-tracer/Day 02 Lab - Connecting Devices.pkt",
+    "labs/packet-tracer/Day 01 Lab - Packet Tracer Introduction.pkt",
+    "labs/packet-tracer",
+    "labs/notes/Day01-lab.md",
+    "labs/notes/Day00-basic-ping.md",
+    "labs/notes/Day-02lab-connecting-Devices.md",
+    "labs/notes",
+    "notes/images",
+    "notes/Day02-connecting-devices.md",
+    "notes/01-network-devices.md",
+    "notes",
+    "ccna-labs/lab-notes/Day-02lab-connecting-Devices.md",
+    "labs/packet-tracer-files/Day00-basic-ping.pkt",
+    "labs/lab-notes/Day01-lab.md",
+    "labs/lab-notes/Day00-basic-ping.md",
+    "labs/lab-notes/Day-02lab-connecting-Devices.md",
+    "labs/images/day02-connecting-devices.png",
+    "labs/images/day01-topology.png",
+    "labs/images/day00-topology.png",
+    "labs/images/day00-pc0-net.png",
+    "labs/images/day00-laptop-net.png",
+    "ccna-notes/Day02-connecting-devices.md",
+    "ccna-labs/images/day00-topology.png",
+    "ccna-labs/images/day00-pc0-net.png",
+    "ccna-labs/images/day00-laptop-net.png",
+    "ccna-labs/images/00-topology.png",
+    "ccna-labs/images/00-pc0-net.png",
+    "ccna-labs/lab-notes/Day00-basic-ping.md",
+    "ccna-labs/lab-notes/00-basic-ping.md",
     "ccna-labs/lab-notes/Day01-lab.md",
-    "ccna-labs/images/Screenshot 2026-06-28 014038.png",
-    "ccna-labs/images/Screenshot 2026-06-28 014038.png",
-    "ccna-labs/Day01-lab.md",
-    "ccna-labs/images/Screenshot 2026-06-28 010720.png",
-    "ccna-labs/images",
-    "ccna-labs/New folder"
+    "README.md",
+    "Screen![[Screenshot.md",
+    "ccna-labs/Day01-lab.md"
   ]
 }
