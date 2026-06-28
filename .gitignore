@@ -1,0 +1,6 @@
+# Obsidian
+.obsidian/
+**/.obsidian/
+
+# VS Code (optional)
+.vscode/
