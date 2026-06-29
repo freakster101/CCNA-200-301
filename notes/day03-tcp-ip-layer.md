@@ -1,17 +1,18 @@
-# 🌐 TCP/IP Model & Network Communication
+# 🌐 Day 03 - TCP/IP Model & Network Communication
 
 ## 🎯 Objectives
 
 After completing this topic, you should be able to:
 
-- Explain what protocols and standards are.
-- Describe how TCP/IP became the Internet standard.
-- Identify the organizations responsible for networking standards.
-- Understand the TCP/IP and OSI models.
-- Explain the purpose of each TCP/IP layer.
-- Describe encapsulation and decapsulation.
-- Identify Protocol Data Units (PDUs).
-- Understand how layers interact during communication.
+* Explain what protocols and standards are.
+* Describe how TCP/IP became the Internet standard.
+* Identify the organizations responsible for networking standards.
+* Understand the TCP/IP and OSI models.
+* Explain the purpose of each TCP/IP layer.
+* Describe encapsulation and decapsulation.
+* Identify Protocol Data Units (PDUs).
+* Explain payloads.
+* Understand how layers interact during communication.
 
 ---
 
@@ -25,17 +26,17 @@ Without protocols, computers would not understand each other's messages.
 
 ### Example
 
-- HTTP for web browsing
-- TCP for reliable communication
-- IP for addressing
+* HTTP for web browsing
+* TCP for reliable communication
+* IP for addressing
 
 ---
 
 ## 📏 Standard
 
-A **standard** is an agreed specification describing how technologies should work.
+A **standard** is an agreed-upon specification describing how technologies and protocols should operate.
 
-Standards allow devices made by different manufacturers to communicate.
+Standards allow devices made by different manufacturers to communicate with one another.
 
 ### Example
 
@@ -47,12 +48,10 @@ A Windows PC can communicate with a Linux server because both follow the same ne
 
 Networking research began during the 1960s with **ARPANET**, funded by the U.S. Department of Defense.
 
-Originally ARPANET used **NCP**, but in 1974 **Vint Cerf** and **Bob Kahn** developed TCP.
+Originally, ARPANET used the **Network Control Program (NCP)**. In 1974, **Vint Cerf** and **Bob Kahn** developed TCP, which was later divided into:
 
-Later TCP was divided into:
-
-- TCP
-- IP
+* Transmission Control Protocol (TCP)
+* Internet Protocol (IP)
 
 On **January 1, 1983**, ARPANET officially switched to TCP/IP, which eventually became the foundation of today's Internet.
 
@@ -60,30 +59,28 @@ On **January 1, 1983**, ARPANET officially switched to TCP/IP, which eventually 
 
 # 📖 Networking Standards Organizations
 
-## ⚡ IEEE
+## ⚡ IEEE (Institute of Electrical and Electronics Engineers)
 
-Responsible for technologies used mainly on Local Area Networks (LANs).
+Develops standards primarily for Local Area Networks (LANs).
 
 Examples:
 
-- Ethernet (802.3)
-- Wi-Fi (802.11)
+* IEEE 802.3 → Ethernet
+* IEEE 802.11 → Wi-Fi
 
 ---
 
-## 🌍 IETF
+## 🌍 IETF (Internet Engineering Task Force)
 
-Develops Internet protocols.
+Develops Internet protocols and publishes standards as **RFCs (Requests for Comments).**
 
 Examples:
 
-- TCP
-- UDP
-- IP
-- HTTP
-- DNS
-
-The IETF publishes standards as **RFCs (Request for Comments).**
+* TCP
+* UDP
+* IP
+* HTTP
+* DNS
 
 ---
 
@@ -91,16 +88,17 @@ The IETF publishes standards as **RFCs (Request for Comments).**
 
 Sending data across a network involves many independent tasks.
 
-Instead of one huge complicated process, networking divides responsibilities into **layers**.
+Instead of one large, complex process, networking divides responsibilities into layers.
 
-Benefits:
+### Benefits
 
-- Easier troubleshooting
-- Modular design
-- Easier upgrades
-- Standardization
+* Easier troubleshooting
+* Modular design
+* Easier upgrades
+* Standardization
+* Independent layer operation
 
-Each layer provides services to the layer above while using services from the layer below.
+Each layer provides services to the layer above while using the services of the layer below.
 
 ---
 
@@ -108,159 +106,174 @@ Each layer provides services to the layer above while using services from the la
 
 ## 🟨 Layer 5 — Application
 
-Provides network services directly to applications.
+Provides network services directly to applications and defines how application data is formatted, transmitted, and interpreted.
 
 Common protocols:
 
-- HTTP
-- HTTPS
-- FTP
-- SMTP
-- DNS
+* HTTP
+* HTTPS
+* FTP
+* SMTP
+* DNS
 
 ### Example
 
-Opening a webpage in Chrome uses HTTP/HTTPS.
+Opening a webpage in Chrome uses HTTP or HTTPS.
 
 ---
 
 ## 🟪 Layer 4 — Transport
 
-Provides end-to-end communication between applications.
-
-Uses:
-
-- TCP
-- UDP
+Provides **process-to-process (end-to-end)** communication between applications.
 
 Responsible for:
 
-- Port numbers
-- Reliability
-- Flow control
+* Port numbers
+* Reliability (TCP)
+* Flow control (TCP)
+* Multiplexing application traffic
+
+Common protocols:
+
+* TCP
+* UDP
 
 ### Example
 
-A web browser sends data to **Port 80** (HTTP) or **Port 443** (HTTPS).
+A web browser sends data to **Port 80 (HTTP)** or **Port 443 (HTTPS).**
 
 ---
 
 ## 🟩 Layer 3 — Internet
 
-Responsible for communication between different networks.
+Provides **end-to-end communication between hosts** across multiple networks using IP addresses.
 
-Uses:
+Responsible for:
 
-- IPv4
-- IPv6
-- ICMP
+* Logical addressing
+* Routing
+* Packet forwarding
 
-Routers operate mainly at this layer.
+Common protocols:
+
+* IPv4
+* IPv6
+* ICMP
+
+Routers primarily operate at this layer.
 
 ### Example
 
-The packet is addressed to **10.1.1.1**.
+A router forwards a packet toward the destination IP address **10.1.1.1**.
 
 ---
 
 ## 🟥 Layer 2 — Local Network
 
-Responsible for communication inside the local network.
+Provides **hop-to-hop communication** within a local network using MAC addresses.
 
-Uses:
+Responsible for:
 
-- MAC addresses
-- Ethernet
-- Wi-Fi
+* MAC addressing
+* Frame forwarding
+* Error detection
 
-Switches mainly operate here.
+Common protocols:
+
+* Ethernet
+* Wi-Fi
+
+Switches primarily operate at this layer.
 
 ### Example
 
-The switch forwards frames using the destination MAC address.
+A switch forwards a frame using the destination MAC address.
 
 ---
 
 ## ⬜ Layer 1 — Physical
 
-Responsible for transmitting bits through the physical medium.
+Responsible for transmitting bits across the physical medium as electrical, optical, or radio signals.
 
 Examples:
 
-- Copper cables
-- Fiber optic cables
-- Radio waves
-- Network Interface Cards (NICs)
+* Copper UTP cables
+* Fiber-optic cables
+* Radio waves
+* Network Interface Cards (NICs)
 
 ### Example
 
-A binary 1 or 0 becomes an electrical or optical signal.
+A binary 1 or 0 is transmitted as an electrical or optical signal.
 
 ---
 
 # 📖 Encapsulation
 
-When data is sent, each layer adds its own information.
+As data moves down the TCP/IP stack, each layer adds information needed for communication.
 
-The process is called **encapsulation**.
+* Layer 4 adds a header.
+* Layer 3 adds a header.
+* Layer 2 adds both a header and a trailer.
 
-Order:
+Each layer creates a new Protocol Data Unit (PDU) for transmission.
 
-```
-
+```text
 Application Data
-↓
+        ↓
 Transport Header
-↓
+        ↓
 Internet Header
-↓
+        ↓
 Local Network Header + Trailer
-↓
+        ↓
 Bits
-
 ```
-
-Each layer wraps the previous layer.
 
 ---
 
 # 📖 Decapsulation
 
-The receiving device removes headers one by one.
+The receiving device removes headers (and the Layer 2 trailer) one layer at a time until the original application data reaches the destination application.
 
-The process is called **decapsulation**.
-
-Order:
-
-```
-
+```text
 Bits
-↑
+ ↑
 Frame
-↑
+ ↑
 Packet
-↑
-Segment
-↑
+ ↑
+Segment / Datagram
+ ↑
 Application Data
-
 ```
-
-Eventually the application receives the original data.
 
 ---
 
 # 📖 Protocol Data Units (PDUs)
 
-Each layer gives the data a different name.
+Each layer refers to the transmitted data by a different name.
 
-| Layer | PDU |
-|--------|-----|
-| Application | Data |
-| Transport | Segment (TCP) / Datagram (UDP) |
-| Internet | Packet |
-| Local Network | Frame |
-| Physical | Bits |
+| Layer         | PDU                            |
+| ------------- | ------------------------------ |
+| Application   | Data                           |
+| Transport     | Segment (TCP) / Datagram (UDP) |
+| Internet      | Packet                         |
+| Local Network | Frame                          |
+| Physical      | Bits                           |
+
+---
+
+# 📖 Payload
+
+A **payload** is the data carried inside a Protocol Data Unit (PDU), excluding that layer's own header (and trailer, if applicable).
+
+As data moves through the stack, each layer treats the entire PDU from the layer above as its payload.
+
+### Example
+
+* A Layer 3 packet contains a Layer 4 segment as its payload.
+* A Layer 2 frame contains the entire Layer 3 packet as its payload.
 
 ---
 
@@ -268,73 +281,83 @@ Each layer gives the data a different name.
 
 ## Adjacent-Layer Interaction
 
-Each layer only communicates with the layer directly above and below it.
+Each layer communicates directly with the layer immediately above and below it.
 
-Example:
+Examples:
 
-Transport uses Internet services.
-
-Internet uses Local Network services.
+* Transport uses Internet layer services.
+* Internet uses Local Network layer services.
+* Local Network uses Physical layer services.
 
 ---
 
 ## Same-Layer Interaction
 
-Each layer appears to communicate with its corresponding layer on another device.
+Each layer logically communicates with the corresponding layer on another device.
 
-Example:
+Examples:
 
-HTTP communicates with HTTP.
-
-TCP communicates with TCP.
-
-IP communicates with IP.
-
-Ethernet communicates with Ethernet.
+* HTTP ↔ HTTP
+* TCP ↔ TCP
+* IP ↔ IP
+* Ethernet ↔ Ethernet
 
 ---
 
 # 📖 Separation of Layers
 
-Each layer performs a specific task.
+Each layer performs a specific responsibility while remaining largely independent from the others.
 
-Changing one layer usually does **not** require changing the others.
+Changing one layer usually does **not** require changes to the remaining layers.
 
-Example:
+### Example
 
-Replacing Ethernet with Wi-Fi only affects the Local Network and Physical layers.
-
-Applications continue working normally.
+Replacing Ethernet with Wi-Fi only affects the Local Network and Physical layers. Applications such as HTTP continue working without modification.
 
 ---
 
 # 📖 OSI Model
 
-The OSI Model is a **7-layer reference model** created by ISO.
+The **OSI (Open Systems Interconnection)** model is a seven-layer reference model developed by ISO.
 
-Although TCP/IP became the real-world standard, the OSI model is widely used for learning and troubleshooting.
+Although TCP/IP became the networking standard used in real-world networks, the OSI model remains widely used for learning, troubleshooting, and discussing network communication.
 
-| TCP/IP | OSI |
-|---------|-----|
-| Application | Application |
-| | Presentation |
-| | Session |
-| Transport | Transport |
-| Internet | Network |
-| Local Network | Data Link |
-| Physical | Physical |
+| TCP/IP        | OSI          |
+| ------------- | ------------ |
+| Application   | Application  |
+|               | Presentation |
+|               | Session      |
+| Transport     | Transport    |
+| Internet      | Network      |
+| Local Network | Data Link    |
+| Physical      | Physical     |
+
+---
+
+# 📖 TCP/IP vs OSI
+
+| TCP/IP                   | OSI                                |
+| ------------------------ | ---------------------------------- |
+| 5 layers                 | 7 layers                           |
+| Used in modern networks  | Reference model                    |
+| Practical implementation | Conceptual model                   |
+| Protocol suite           | Teaching and troubleshooting model |
 
 ---
 
 # 📝 Summary
 
-- A protocol defines communication rules.
-- Standards allow different vendors' devices to communicate.
-- TCP/IP became the Internet standard in 1983.
-- IEEE develops LAN technologies like Ethernet and Wi-Fi.
-- IETF develops Internet protocols and RFCs.
-- The TCP/IP model has five layers.
-- Data is encapsulated before transmission and decapsulated upon reception.
-- PDUs change names as data moves through the stack.
-- Each layer has a dedicated responsibility.
-- The OSI model is mainly used as a learning and reference model.
+* A protocol defines the rules for network communication.
+* Standards allow devices from different vendors to communicate.
+* TCP/IP became the Internet standard in **1983**.
+* IEEE develops LAN technologies such as Ethernet and Wi-Fi.
+* IETF develops Internet protocols and publishes RFCs.
+* The TCP/IP model divides communication into five layers.
+* Layer 2 provides hop-to-hop communication using MAC addresses.
+* Layer 3 provides end-to-end communication using IP addresses.
+* Layer 4 provides process-to-process communication using port numbers.
+* Data is encapsulated before transmission and decapsulated upon reception.
+* PDUs change names as data moves through the network stack.
+* Payload is the data carried inside a PDU after excluding that layer's own header.
+* The OSI model is mainly used for learning and troubleshooting.
+* Each layer has a dedicated responsibility, making networks modular and easier to maintain.
