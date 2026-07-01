@@ -206,9 +206,9 @@ is always used when entering **Privileged EXEC Mode** because it is more secure.
 
 ### Day 04 Packet Tracer Lab
 
-![Cisco CLI Topology](day04-cisco-cli-02.png)
+![Cisco CLI Topology](../images/day04-cisco-cli-02.png)
 
-![CLI tools](day04-cisco-cli-01.png)
+![CLI tools](../images/day04-cisco-cli-01.png)
 
 **Description**
 
