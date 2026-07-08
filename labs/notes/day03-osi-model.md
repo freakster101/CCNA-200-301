@@ -61,3 +61,8 @@ The screenshot shows Packet Tracer in Simulation Mode while PC1 requests a new I
 # 📝 Summary
 
 This lab demonstrated how Packet Tracer visualizes communication using the OSI model. By observing a DHCP exchange, I learned how data is encapsulated into different protocol headers at each layer and how Simulation Mode can be used to troubleshoot and understand network communication.
+
+## 📚 Credits
+
+This lab is based on the excellent **CCNA 200-301** course by **Jeremy's IT Lab**.  
+These notes were created as a personal study reference and summarize the hands-on Packet Tracer lab completed while following the course.

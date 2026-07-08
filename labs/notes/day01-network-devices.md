@@ -50,3 +50,8 @@ This lab introduced the Packet Tracer environment by recreating the enterprise t
 
 ![Day 01 - Enterprise Network Topology](../images/day01-topology.png)
 **Figure 1.** Completed enterprise network topology recreated in Cisco Packet Tracer based on Jeremy's IT Lab Day 1. The topology includes two branch offices connected through the Internet, with switches, routers, firewalls, clients, servers, and an external attacker.
+
+## 📚 Credits
+
+This lab is based on the excellent **CCNA 200-301** course by **Jeremy's IT Lab**.  
+These notes were created as a personal study reference and summarize the hands-on Packet Tracer lab completed while following the course.

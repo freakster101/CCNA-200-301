@@ -35,3 +35,9 @@ Fiber-optic cables were selected for links requiring longer transmission distanc
 # 📝 Summary
 
 This lab reinforced the physical layer concepts introduced in Day 2 by applying Ethernet cabling standards in Packet Tracer. I practiced selecting the correct cable for different networking scenarios and gained a better understanding of how cable type, device type, and transmission distance influence network connectivity.
+
+
+## 📚 Credits
+
+This lab is based on the excellent **CCNA 200-301** course by **Jeremy's IT Lab**.  
+These notes were created as a personal study reference and summarize the hands-on Packet Tracer lab completed while following the course.

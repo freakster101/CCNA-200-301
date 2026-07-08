@@ -248,3 +248,8 @@ One of the most common CCNA exam and interview questions is:
 `enable secret`
 
 It always takes precedence because it provides stronger security than `enable password`.
+
+## 📚 Credits
+
+This lab is based on the excellent **CCNA 200-301** course by **Jeremy's IT Lab**.  
+These notes were created as a personal study reference and summarize the hands-on Packet Tracer lab completed while following the course.
